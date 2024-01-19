@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+</head>
+<body>
+    <h1>Trabalhando com Links</h1>
+    <h2>Links externos</h2>
+    <p>Você pode acessar o youtube clicando <a href="https://www.youtube.com/" target="_blank" rel="external">aqui</a></p> <!--O parâmetro target="blank" faz com que o link abra o site em outra aba, e o rel="external" indica que esse link é externo, ou seja, não é seu. Esses dois parâmetros são indicados para quando o link é de um site externo.-->
+    <h2>Links internos</h2>
+    <p>Você está na minha primeira página, mas se você quiser, você também pode ir para a minha <a href="pag002.html" rel="next">segunda página</a></p> <!--Para fazer uma segunda página, você cria um arquivo chamado .html e coloca na mesma pasta do index. O parâmetro rel="next" indica que a página que será acessada é a próxima do seu site.-->
+    <p>Para acessar as notícias, clique <a href="noticias/pag003.html">aqui</a></p> <!--Para acessar um site que não esteja na mesma pasta que a página atual, deve-se colocar o caminho inteiro, com a nova pasta e o arquivo-->
+    <p>Para acessar o pdf, clique <a href="livro/10 - Ligações em toda parte.pdf" download="livro/10 - Ligações em toda parte.pdf" type="application/pdf" target="_blank" rel="external">aqui</a></p>
+</body>
+</html>

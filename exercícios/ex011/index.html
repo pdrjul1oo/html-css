@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/Imagem1.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="Imagens/Imagem2.jpg" type="image/jpg">
+        <img src="Imagens/Imagem3.jpg" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Veja a seguir, o exemplo de um áudio sendo reproduzido</p>
+    <audio src="midia/oldworldsaga.mp3" controls></audio> <!--O parâmetro controls ativa o botão de ativar o áudio-->
+    <!--MP3 WAV OGG-->
+    <p>Veja agora, outro jeito de reproduzir áudio</p>
+    <audio preload="metadata" controls loop> <!--O parâmetro preload indica que o jeito que o áudio vai ser carregado ao abrir o site e o parâmetro loop faz com o áudio seja reproduzida em loop. Também tem o parâmetro autoplay que faz com que o áudio seja reproduzido assim que você entra no site, porém, esse parâmetro não funciona em todos os navegadores.-->
+        <source src="midia/oldworldsaga.mp3" type="audio/mpeg"> 
+        <p>Infelizmente, seu navegador não carregou o áudio</p>
+    </audio>
+</body>
+</html>

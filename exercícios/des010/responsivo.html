@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+</head>
+<style>
+    body{
+        background-color: grey;
+    }
+    main{
+        background-color: white;                                           
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 800px;
+        min-width: 280px;
+        margin: auto;            
+    }
+    img{
+        width: 100%;
+        /*Faz com que a imagem não ultrapasse o main*/
+    }
+</style>
+<body>
+    <main>
+        <h1>Testando responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis fugit corrupti totam, sed impedit esse, cupiditate quasi ipsa hic iusto dolore ad repellat quae at consectetur assumenda nihil? In, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. In praesentium vel consectetur totam aliquam voluptates mollitia quaerat necessitatibus sit numquam error incidunt ea dolor quisquam, architecto nam repellendus maxime excepturi? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae ipsa nulla, eligendi sed impedit accusantium placeat animi at labore, nihil nostrum! Repellat, laudantium quo fugiat quam eligendi autem exercitationem ipsa.</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens\irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="irina">
+        </picture>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, fugiat velit. Corrupti autem doloribus ex id optio nisi repellat culpa magnam, voluptates eius saepe dolorem soluta sapiente dolor aspernatur accusantium?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum necessitatibus aliquam adipisci, illum ut id mollitia perspiciatis error inventore recusandae minus, voluptas blanditiis quas maxime odio officia molestiae provident. Assumenda?</p>
+    </main>
+</body>
+</html>

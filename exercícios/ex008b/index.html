@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte Pré-formatado</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em JavaScript</p> <!--O comando code deixa a fonte monoespaçada, facilitando a leitura-->
+    <pre>
+<code>num = int(input("Eu pensei em um  número, tente adivinhar qual é"))
+mnum = 10
+if num == 10:
+    print("Você acertou")
+elif num > 10:
+    print("O número que você disse é maior do que o número que eu pensei")
+elif num &lt; 10:
+    print("O número que você disse é menor do que o número que eu pensei")
+        </code>
+    </pre> <!--O comando pre indica que as quebras de linha dentro dele devem ser consideradas-->
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo, <q>o computador é um burro muito rápido</q></p> <!--Em citações simples, prefira usar a tag q ao invés de apenas digitar as aspas, pois a tag q é semântica.-->
+    <p>Segundo o livro Pai rico, Pai pobre de Robert T. Kiyosaki:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Rich_Dad_Poor_Dad/ieeyzgEACAAJ?hl=pt-BR">Uma das razões pelas quais os ricos ficam mais ricos, os pobres, mais pobres e a classe média luta com as dívidas é que o assunto dinheiro não é ensinado nem em casa nem na escola.</blockquote>
+    <!--Para citações em bloco, use o blockquote. Também pode ser usado o parâmetro cite, que mostra em qual site ou livro você achou esta citação.-->
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr></p> <!--Ao passar o mouse, é mostrado o significado da abreviação-->
+    <h2>Texto invertido</h2>
+    <bdo dir="rtl">Estou estudando HTML</bdo> <!--Cria textos invertidos, bruh.-->
+</body>
+</html>
